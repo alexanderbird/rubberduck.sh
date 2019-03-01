@@ -15,4 +15,6 @@ do
   echo "🦆 ${sayings[$rand]}"
   printf "> "
 done < "${1:-/dev/stdin}"
+
+echo
 echo "🦆 hope that works!"

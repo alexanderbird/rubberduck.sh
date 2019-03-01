@@ -1,8 +1,10 @@
+PROJECT_ROOT="$(dirname "$0")"
+
 sayings=()
 while read line
 do
   sayings+=("$line")
-done < ./duck_sayings.txt
+done < "$PROJECT_ROOT/duck_sayings.txt"
 
 echo "🦆 What can I help you with?"
 printf "> "

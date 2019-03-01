@@ -1,13 +1,8 @@
 sayings=()
-sayings+=("Mhmm")
-sayings+=("OK")
-sayings+=("tell me more.")
-sayings+=("tell me more.")
-sayings+=("Carry on")
-sayings+=("Right.")
-sayings+=("...")
-sayings+=("what would that require?")
-sayings+=("would that work?")
+while read line
+do
+  sayings+=("$line")
+done < ./duck_sayings.txt
 
 echo "🦆 What can I help you with?"
 printf "> "

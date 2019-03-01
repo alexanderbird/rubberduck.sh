@@ -1,4 +1,5 @@
 PROJECT_ROOT="$(dirname "$0")"
+cat "$PROJECT_ROOT/duck_ascii_art.txt"
 
 sayings=()
 while read line
@@ -14,3 +15,4 @@ do
   echo "🦆 ${sayings[$rand]}"
   printf "> "
 done < "${1:-/dev/stdin}"
+echo "🦆 hope that works!"

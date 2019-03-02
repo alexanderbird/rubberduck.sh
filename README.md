@@ -32,6 +32,8 @@ https://en.wikipedia.org/wiki/Rubber_duck_debugging
 > My foobar won't st│
 ```
 
+[Try it online](https://repl.it/repls/WetRaggedGames)
+
 ## Usage
  1. Clone
  2. `./rubberduck.sh`

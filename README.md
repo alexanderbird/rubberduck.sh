@@ -32,7 +32,7 @@ https://en.wikipedia.org/wiki/Rubber_duck_debugging
 > My foobar won't st│
 ```
 
-[Try it online](https://repl.it/repls/WetRaggedGames)
+<a href='https://repl.it/@alexanderbird/rubberducksh' target='_blank'>Try it online</a>
 
 ## Usage
  1. Clone
